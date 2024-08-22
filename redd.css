@@ -1,5 +1,5 @@
 .hero-heading__text {
-  font-size: 40px;
+  font-size: 40px !important;
 }
 
 .redd-btn {
@@ -19,8 +19,8 @@
 
 section#billboard {
   height: 1000px;
-  margin: 20px auto !important;
-  padding: 50px auto !important;
+  margin: 50px auto !important;
+  padding: 60px auto !important;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,7 +28,9 @@ section#billboard {
 
 section#mobile-products {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
 }
 
 section#mobile-products .image-holder {
@@ -38,22 +40,17 @@ section#mobile-products .image-holder {
   align-items: center;
   flex-direction: column;
   font-size: 25px;
-
 }
 
-
-section#mobile-products .image-holder img{
-
-    width: 80%x;
-    height: 600px;
+section#mobile-products .image-holder img {
+  width: 80%x;
+  height: 600px;
 }
 
 .redd-btn .add-to-cart {
-  color: gold;
 }
 
-
 header#header-nav {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
