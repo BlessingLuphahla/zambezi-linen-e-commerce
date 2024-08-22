@@ -1,0 +1,59 @@
+.hero-heading__text {
+  font-size: 40px;
+}
+
+.redd-btn {
+  width: auto;
+  height: auto;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 50px;
+  background-color: rgb(24, 24, 32);
+  color: white;
+}
+
+.redd-btn:hover {
+  background-color: rgb(12, 12, 12);
+  color: wheat;
+}
+
+section#billboard {
+  height: 1000px;
+  margin: 20px auto !important;
+  padding: 50px auto !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section#mobile-products {
+  display: flex;
+  flex-direction: row;
+}
+
+section#mobile-products .image-holder {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 25px;
+
+}
+
+
+section#mobile-products .image-holder img{
+
+    width: 80%x;
+    height: 600px;
+}
+
+.redd-btn .add-to-cart {
+  color: gold;
+}
+
+
+header#header-nav {
+    margin: 0;
+    padding: 0;
+}
